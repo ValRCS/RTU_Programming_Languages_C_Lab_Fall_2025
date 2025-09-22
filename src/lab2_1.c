@@ -13,6 +13,11 @@
 
 int sum_to_n(int n) {
     // TODO: implement sum with a for loop
+    int sum=0;
+    for(int i=1;i<=n;i++){
+        sum+= i;
+    }
+    printf("the sum of all integers to n is: %d", sum);
     return 0; // placeholder
 }
 
@@ -21,6 +26,12 @@ int main(void) {
 
     printf("Enter a positive integer n: ");
     scanf("%d", &n);
+
+    if (n<1){
+        printf("ERROR: the number is too small");
+    }else{
+        sum_to_n(n);
+    }
 
     // TODO: validate input, call function, and print result
 

@@ -13,16 +13,30 @@
 
 int is_prime(int n) {
     // TODO: check if n is prime using loop up to sqrt(n)
+    int ans=1;
+    for (int i=2;i<=sqrt(n);i++){
+        if(n%i==0){
+            ans=0;
+        }
+    }
+    printf("prime? %d",ans);
     return 0; // placeholder
 }
 
 int main(void) {
+     // TODO: validate input and print all primes up to n
     int n;
 
     printf("Enter an integer n (>= 2): ");
     scanf("%d", &n);
 
-    // TODO: validate input and print all primes up to n
+    if (n<2){
+        printf("ERROR: the number is too small");
+    }else{
+       for(int i=1; i<=n; i++){
+         is_prime(n);
+       }
+    }
 
     return 0;
 }
