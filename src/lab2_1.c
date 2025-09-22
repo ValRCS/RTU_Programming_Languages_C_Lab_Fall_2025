@@ -1,28 +1,26 @@
 #include <stdio.h>
 
-/*
-    Task:
-    Write a function `int sum_to_n(int n)` that computes
-    the sum of all integers from 1 up to n using a for loop.
-
-    In main():
-      - Ask user for a positive integer n
-      - If n < 1, print an error
-      - Otherwise, call sum_to_n and print the result
-*/
-
 int sum_to_n(int n) {
-    // TODO: implement sum with a for loop
-    return 0; // placeholder
+  int sum = 0;
+
+  for (int i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
 }
 
-int main(void) {
-    int n;
+int main() {
+  int n;
+  printf("Enter a positive integer: ");
+  scanf("%d", &n);
 
-    printf("Enter a positive integer n: ");
-    scanf("%d", &n);
+  if (n < 1) {
+    printf("Please enter a positive integer greater than 0.\n");
+    return 1;
+  }
 
-    // TODO: validate input, call function, and print result
+  int result = sum_to_n(n);
+  printf("The sum of the first %d natural numbers is: %d\n", n, result);
 
-    return 0;
+  return 0;
 }
