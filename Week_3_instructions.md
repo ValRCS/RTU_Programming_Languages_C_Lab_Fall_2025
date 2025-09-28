@@ -37,6 +37,7 @@ printf("Min: %d\n", array_min(arr, 5));  // 5
 printf("Max: %d\n", array_max(arr, 5));  // 30
 printf("Sum: %d\n", array_sum(arr, 5));  // 80
 printf("Avg: %.2f\n", array_avg(arr, 5));// 16.00
+```
 
 ## Task 2 – Pointers in Function Parameters (`lab3_task2.c`)
 
