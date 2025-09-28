@@ -86,5 +86,10 @@ my_strcpy(buffer, text);
 printf("%s\n", buffer);          // hello
 ```
 
+## Submit
+
+* As usual, for each assignment submit the source code file for the assignment `lab3_task1.c` for first and so on.
+* Alternatively, you can also submit the link to your repository which has this MODIFIED BY YOU file. Not just my original stub..
+
 
 
