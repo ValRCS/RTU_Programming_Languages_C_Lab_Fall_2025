@@ -6,6 +6,7 @@ In this lab you will practice three core topics in C programming:
 3. Manual string handling (strlen, strcpy)
 
 You will work on **three separate C source files**:
+
 - `lab3_task1.c`
 - `lab3_task2.c`
 - `lab3_task3.c`
@@ -17,6 +18,59 @@ Each file already contains:
 - Placeholders (`// TODO`) where you need to write code
 
 ---
+## Acquiring Lab 3 Files in Codespaces
+
+There are two ways to get the new Lab 3 files into your Codespaces.  
+Choose the method that fits your situation.
+
+---
+
+### Option A – Update Your Existing Codespace (Recommended)
+
+If you already forked the course repository in Week 1 and created a Codespace, you can simply **pull the new files**.
+
+1. Open your existing Codespace.
+2. Make sure you are on the `main` branch from terminal:
+   ```bash
+   git checkout main
+   ```
+3. Check that you have the teacher’s repository set as upstream:
+```git remote -v```
+You should see something like this in the output:
+```
+origin    https://github.com/student123/RTU_Programming_Languages_C_Lab_Fall_2025.git (fetch)
+upstream  https://github.com/ValRCS/RTU_Programming_Languages_C_Lab_Fall_2025.git (fetch)
+```
+If you do not see upstream, add it manually:
+```git remote add upstream https://github.com/ValRCS/RTU_Programming_Languages_C_Lab_Fall_2025.git```
+4. Pull the new files from the teacher repository:
+```git pull upstream main```
+5. After this, you should see the new files:
+```
+src/lab3_task1.c
+src/lab3_task2.c
+src/lab3_task3.c
+week3_instructions.md
+```
+
+### Option B – Create a New Fork and Codespace (Only if Needed)
+
+Use this option **only if**:
+- You accidentally deleted your Codespace, **or**
+- Your fork is broken and cannot be updated.
+
+Steps:
+
+1. Go to the [teacher repository](https://github.com/ValRCS/RTU_Programming_Languages_C_Lab_Fall_2025).
+2. Click **Fork** to create your own copy under your GitHub account.
+3. When forking, GitHub may ask for a repository name.  
+   - Example: if your GitHub username is `student123`, the default fork name will be  
+     `student123/RTU_Programming_Languages_C_Lab_Fall_2025`.  
+   - If you already created a fork in Week 1 or Week 2, you will need to **rename this new fork** (e.g. `RTU_Programming_Languages_C_Lab_Fall_2025_v2`) to avoid conflicts.
+4. Open the newly forked repository in GitHub and click:  
+**Code → Codespaces → Create Codespace on main**
+5. You will now have a fresh Codespace with all files, including Lab 3.
+
 
 ## Task 1 – Array Algorithms (`lab3_task1.c`)
 
