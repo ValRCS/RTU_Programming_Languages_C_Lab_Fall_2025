@@ -65,7 +65,7 @@ If you don’t want to use terminal commands in Codespaces, you can update your 
      *“This branch is 3 commits behind ValRCS:main”*.
 3. Click the **“Sync fork”** button, then click **“Update branch”** to bring your fork up to date.
 4. After that, go back to your Codespace and run:
-   ```bash
+```bash
    git pull origin main
 ```
 This will download the updated files from your fork into your Codespace.
