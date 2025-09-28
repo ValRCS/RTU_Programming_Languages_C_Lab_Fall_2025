@@ -61,6 +61,7 @@ printf("After swap: a=%d, b=%d\n", a, b);
 
 modify_value(&a);
 printf("After modify_value: a=%d\n", a);
+```
 
 ## Task 3 – String Handling (`lab3_task3.c`)
 
@@ -83,4 +84,7 @@ int len = my_strlen(text);       // 5
 char buffer[100];
 my_strcpy(buffer, text);
 printf("%s\n", buffer);          // hello
+```
+
+
 
