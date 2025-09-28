@@ -6,6 +6,29 @@
 - Write, compile, and run simple C programs.
 - Practice `printf` / `scanf` format specifiers.
 
+Run Proof:
+@NYXXio ➜ /workspaces/RTU_Programming_Languages_C_Lab_Fall_2025 (main) $ cd bin
+@NYXXio ➜ /workspaces/RTU_Programming_Languages_C_Lab_Fall_2025/bin (main) $ ./hello.c
+bash: ./hello.c: No such file or directory
+@NYXXio ➜ /workspaces/RTU_Programming_Languages_C_Lab_Fall_2025/bin (main) $ ./hello
+Hello, RTU World from C Lab in 2025!
+
+OR 
+
+@NYXXio ➜ /workspaces/RTU_Programming_Languages_C_Lab_Fall_2025 (main) $ ./bin/hello
+Hello, RTU World from C Lab in 2025!
+You passed 0 argument(s).
+@NYXXio ➜ /workspaces/RTU_Programming_Languages_C_Lab_Fall_2025 (main) $ ./bin/hello rithwik
+Hello, RTU World from C Lab in 2025!
+You passed 1 argument(s).
+  arg[1] = rithwik
+@NYXXio ➜ /workspaces/RTU_Programming_Languages_C_Lab_Fall_2025 (main) $ make hello
+gcc -std=c11 -Wall -Wextra -Wpedantic -O2 src/hello.c -o bin/hello 
+@NYXXio ➜ /workspaces/RTU_Programming_Languages_C_Lab_Fall_2025 (main) $ make run-hello
+./bin/hello
+Hello Rithwik, -RTU World, C Lab in 2025!
+You passed 0 argument(s).
+
 ## Repository Layout
 ```
 Lab01_C_Basics/
