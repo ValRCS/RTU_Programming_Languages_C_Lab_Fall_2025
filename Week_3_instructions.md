@@ -53,6 +53,25 @@ src/lab3_task3.c
 week3_instructions.md
 ```
 
+### Option A2 – Update Your Fork Using GitHub "Sync Fork" Button
+
+If you don’t want to use terminal commands in Codespaces, you can update your fork directly on the GitHub website.
+
+#### Steps
+
+1. Open your fork of the course repository on GitHub (e.g. `https://github.com/student123/RTU_Programming_Languages_C_Lab_Fall_2025`).
+2. On the repository page, you should see a **“Sync fork”** button near the top of the page.  
+   - If your fork is behind the teacher’s repository, GitHub will show something like:  
+     *“This branch is 3 commits behind ValRCS:main”*.
+3. Click the **“Sync fork”** button, then click **“Update branch”** to bring your fork up to date.
+4. After that, go back to your Codespace and run:
+   ```bash
+   git pull origin main
+```
+This will download the updated files from your fork into your Codespace.
+⚠️ Note: The “Sync fork” method updates your fork on GitHub, but you still need to run
+git pull origin main inside your Codespace to get the new files locall
+
 ### Option B – Create a New Fork and Codespace (Only if Needed)
 
 Use this option **only if**:
@@ -70,6 +89,7 @@ Steps:
 4. Open the newly forked repository in GitHub and click:  
 **Code → Codespaces → Create Codespace on main**
 5. You will now have a fresh Codespace with all files, including Lab 3.
+   **NOTE**: Option A is much preferred. At some point in your future jobs you will not be allowed to just fork anytime you need a fresh copy - that is highly unprofessional.
 
 
 ## Task 1 – Array Algorithms (`lab3_task1.c`)
