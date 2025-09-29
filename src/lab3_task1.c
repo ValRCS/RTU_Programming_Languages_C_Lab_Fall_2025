@@ -64,17 +64,17 @@ int array_max(int arr[], int size) {
 }
 
 int array_sum(int arr[], int size) {
-    int my_sum;
-    for(int i = 1; i<size ; i++){
-        my_sum += arr[i];
+    int my_sum=0;
+    for(int i = 0; i<size ; i++){
+        my_sum = my_sum + arr[i];
     }
     return my_sum; // placeholder
 }
 
 float array_avg(int arr[], int size) {
-    float my_sum;
-    for(int i = 1; i<size ; i++){
-        my_sum += arr[i];
+    float my_sum = 0.0;
+    for(int i = 0; i<size ; i++){
+        my_sum = my_sum + arr[i];
     }
     float my_avg = my_sum / size;
     return my_avg; // placeholder
