@@ -1,3 +1,5 @@
+// Name : Murad Hashimov , id : 241ADB148
+
 #include <stdio.h>
 
 /*
@@ -14,7 +16,7 @@
 long long factorial(int n) {
   int a = 1;
   int res = 1;
-  
+
   while (a <= n) {
     res = res * a;
     a++;

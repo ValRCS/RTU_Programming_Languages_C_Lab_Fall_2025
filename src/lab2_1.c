@@ -1,3 +1,4 @@
+// Name : Murad Hashimov , id : 241ADB148
 #include <stdio.h>
 
 /*
