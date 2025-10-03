@@ -8,7 +8,7 @@
     In main():
       - Ask user for an integer n
       - If n is negative, print an error and exit
-      - Otherwise, call factorial and print the result
+      - Otherwise, call factorial and print the result.
 */
 
 long long factorial(int n) {

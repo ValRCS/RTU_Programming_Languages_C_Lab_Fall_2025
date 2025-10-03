@@ -55,7 +55,7 @@ int main(void) {
   printf("Enter an integer n (>= 2): ");
   scanf("%d", &n);
 
-  // TODO: validate input and print all primes up to n
+  // TODO: validate input and print all primes up to n.
 
   return 0;
 }

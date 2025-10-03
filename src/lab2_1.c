@@ -8,7 +8,7 @@
     In main():
       - Ask user for a positive integer n
       - If n < 1, print an error
-      - Otherwise, call sum_to_n and print the result
+      - Otherwise, call sum_to_n and print the result.
 */
 
 int sum_to_n(int n) {
