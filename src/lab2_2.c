@@ -33,4 +33,18 @@ int main(void) {
   }
 
   return 0;
+
+  // TODO: compute factorial iteratively
+  return 1;  // placeholder
+}
+
+int main(void) {
+  int n;
+
+  printf("Enter a non-negative integer n: ");
+  scanf("%d", &n);
+
+  // TODO: validate input, call function, print result
+
+  return 0;
 }

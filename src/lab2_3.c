@@ -1,3 +1,4 @@
+
 #include <math.h>  // for sqrt function
 #include <stdio.h>
 
@@ -42,6 +43,19 @@ int main(void) {
     }
   }
   printf("\n");
+
+  return 0;
+  // TODO: check if n is prime using loop up to sqrt(n)
+  return 0;  // placeholder
+}
+
+int main(void) {
+  int n;
+
+  printf("Enter an integer n (>= 2): ");
+  scanf("%d", &n);
+
+  // TODO: validate input and print all primes up to n
 
   return 0;
 }

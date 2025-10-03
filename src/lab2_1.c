@@ -34,4 +34,18 @@ int main(void) {
     printf("Sum from 1 to %d = %d\n", n, result);
   }
   return 0;
+
+  // TODO: implement sum with a for loop
+  return 0;  // placeholder
+}
+
+int main(void) {
+  int n;
+
+  printf("Enter a positive integer n: ");
+  scanf("%d", &n);
+
+  // TODO: validate input, call function, and print result
+
+  return 0;
 }
