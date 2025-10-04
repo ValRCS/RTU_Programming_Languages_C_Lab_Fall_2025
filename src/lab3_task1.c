@@ -1,6 +1,6 @@
 /*
  * Lab 3, Task 1
- * Student Name, Student ID
+ * Student Name:Ilham Dosdiyev, Student ID: 241ADB018
  *
  * Implement array algorithms:
  *   - find minimum value
