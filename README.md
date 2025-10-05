@@ -7,6 +7,18 @@ Each week consists of one **lecture** (2×45 min) and one **lab** (2×45 min).
 
 ---
 
+## 📅 Weekly Overview
+
+| **Week** | **Topic** | **Focus Keywords** |
+|-----------|------------|--------------------|
+| **1** | Introduction & C Basics | setup, syntax, compilation, printf/scanf |
+| **2** | Control Flow & Functions | branching, loops, functions |
+| **3** | Arrays, Strings & Pointers | arrays, strings, pointers |
+| **4** | Dynamic Memory & Structures | malloc, struct, typedef, union |
+| **5** | Files & Modular Programming | file I/O, preprocessor, headers, modularity |
+
+---
+
 ## Week 1 – Introduction & C Basics
 **Lecture**
 - History and role of C (systems, embedded, portability)
