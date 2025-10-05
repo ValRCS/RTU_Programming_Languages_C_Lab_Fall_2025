@@ -103,7 +103,7 @@ ID     Name        Grade
 
 ## 💾 Submission Instructions
 
-Students can submit their work in **either of two ways**:
+Students can submit their work in **either of two ways or BOTH**:
 
 ### **Option A – Submit Repository URL**
 1. Ensure your GitHub repository is up to date:
@@ -124,7 +124,8 @@ Students can submit their work in **either of two ways**:
    - `week4_2_struct_student.c`
    - `week4_3_struct_database.c`
 2. Upload these `.c` files directly to Moodle.
-3. 
+
+Again, I prefer option A, but you can do option B if you are having trouble with your git repository.
 
 ---
 
