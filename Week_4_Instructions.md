@@ -124,6 +124,25 @@ Students can submit their work in **either of two ways**:
    - `week4_2_struct_student.c`
    - `week4_3_struct_database.c`
 2. Upload these `.c` files directly to Moodle.
+3. 
+
+---
+
+## 📚 Web Resources on Dynamic Memory & Structs in C
+
+Note: Some of these are not formal, but should provide a reasonable overview.
+
+### Dynamic Memory Allocation
+- [GeeksforGeeks — Dynamic Memory Allocation in C (malloc, calloc, realloc, free)](https://www.geeksforgeeks.org/c/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/)  
+- [Programiz — C Dynamic Memory Allocation](https://www.programiz.com/c-programming/c-dynamic-memory-allocation)  
+- [Learn-C.org — Dynamic Allocation (interactive)](https://www.learn-c.org/en/Dynamic_allocation)  
+- [cppreference — `malloc` (C)](https://en.cppreference.com/w/c/memory/malloc)  *(see also `free` and `realloc` linked on that page)*
+
+### Structures (`struct`)
+- [Microsoft Learn — Structure Declarations (C)](https://learn.microsoft.com/en-us/cpp/c-language/structure-declarations?view=msvc-170)  
+- [GeeksforGeeks — Structures in C](https://www.geeksforgeeks.org/c/structures-c/)  
+- [Programiz — C struct](https://www.programiz.com/c-programming/c-structures)
+
 
 ---
 
