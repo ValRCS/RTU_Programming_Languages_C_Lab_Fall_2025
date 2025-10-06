@@ -21,8 +21,8 @@
  *   avg = array_avg(arr, 5); // 3.0
  */
 
-#include <stdio.h>
 #include <limits.h>
+#include <stdio.h>
 
 // Function prototypes
 int array_min(int arr[], int size);
@@ -31,51 +31,51 @@ int array_sum(int arr[], int size);
 float array_avg(int arr[], int size);
 
 int main(void) {
-    int arr[] = {10, 20, 5, 30, 15};
-    int size = 5;
+  int arr[] = {10, 20, 5, 30, 15};
+  int size = 5;
 
-    printf("Min: %d\n", array_min(arr, size));
-    printf("Max: %d\n", array_max(arr, size));
-    printf("Sum: %d\n", array_sum(arr, size));
-    printf("Avg: %.2f\n", array_avg(arr, size));
+  printf("Min: %d\n", array_min(arr, size));
+  printf("Max: %d\n", array_max(arr, size));
+  printf("Sum: %d\n", array_sum(arr, size));
+  printf("Avg: %.2f\n", array_avg(arr, size));
 
-    return 0;
+  return 0;
 }
 
 // Implement functions below
 int array_min(int arr[], int size) {
-    int my_min = INT_MAX;
-    for (int i = 1; i < size; i++) {
-        if (arr[i] < my_min) {
-            my_min = arr[i]; 
-        }
+  int my_min = INT_MAX;
+  for (int i = 1; i < size; i++) {
+    if (arr[i] < my_min) {
+      my_min = arr[i];
     }
-    return my_min; // placeholder
+  }
+  return my_min;  // placeholder
 }
 
 int array_max(int arr[], int size) {
-    int my_max = INT_MIN;
-    for (int i = 1; i < size; i++) {
-        if (arr[i] > my_max) {
-            my_max = arr[i]; 
-        }
+  int my_max = INT_MIN;
+  for (int i = 1; i < size; i++) {
+    if (arr[i] > my_max) {
+      my_max = arr[i];
     }
-    return my_max; // placeholder
+  }
+  return my_max;  // placeholder
 }
 
 int array_sum(int arr[], int size) {
-    int my_sum=0;
-    for(int i = 0; i<size ; i++){
-        my_sum = my_sum + arr[i];
-    }
-    return my_sum; // placeholder
+  int my_sum = 0;
+  for (int i = 0; i < size; i++) {
+    my_sum = my_sum + arr[i];
+  }
+  return my_sum;  // placeholder
 }
 
 float array_avg(int arr[], int size) {
-    float my_sum = 0.0;
-    for(int i = 0; i<size ; i++){
-        my_sum = my_sum + arr[i];
-    }
-    float my_avg = my_sum / size;
-    return my_avg; // placeholder
+  float my_sum = 0.0;
+  for (int i = 0; i < size; i++) {
+    my_sum = my_sum + arr[i];
+  }
+  float my_avg = my_sum / size;
+  return my_avg;  // placeholder
 }
