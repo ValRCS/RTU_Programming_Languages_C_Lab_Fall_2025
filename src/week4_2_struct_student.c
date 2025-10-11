@@ -36,6 +36,7 @@ int main(void) {
 
     
     printf("Student 1: Name: %s\n, ID: %d\n, Grade: %f\n", student_1.name, student_1.id, student_1.grade);
+    //
     printf("Student 2: Name: %s\n, ID: %d\n, Grade: %f\n", student_2.name, student_2.id, student_2.grade);
     
 
