@@ -1,3 +1,5 @@
+// Name : Murad Hashimov , id : 241ADB148
+
 #include <stdio.h>
 
 /*
@@ -12,17 +14,30 @@
 */
 
 long long factorial(int n) {
-    // TODO: compute factorial iteratively
-    return 1; // placeholder
+  int a = 1;
+  int res = 1;
+
+  while (a <= n) {
+    res = res * a;
+    a++;
+  }
+  return res;  // placeholder
 }
 
 int main(void) {
-    int n;
+  int n;
 
-    printf("Enter a non-negative integer n: ");
-    scanf("%d", &n);
+  printf("Enter a non-negative integer n: ");
+  scanf("%d", &n);
 
-    // TODO: validate input, call function, print result
+  if (n < 0) {
+    printf("Error , cause it is negative");
+  } else {
+    int res = factorial(n);
+    printf("Factorial of %d is %d", n, res);
+  }
 
-    return 0;
+  // TODO: validate input, call function, print result
+
+  return 0;
 }
